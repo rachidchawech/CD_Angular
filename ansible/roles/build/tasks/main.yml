@@ -1,3 +1,7 @@
+---
 # tasks file for build
+- name: Install dependicies
+  shell: npm install --verbose
+
 - name: build app
-  shell: export NODE_OPTIONS=--openssl-legacy-provider build --prod
+  shell: ng build --prod
