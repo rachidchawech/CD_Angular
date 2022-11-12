@@ -1,4 +1,4 @@
 FROM nginx:alpine
-RUN cp ./dist/appcloud /usr/share/nginx/html
+COPY ./dist/my-app /usr/share/nginx/html
 EXPOSE 4201 
 CMD ["nginx", "-g", "daemon off;"]
