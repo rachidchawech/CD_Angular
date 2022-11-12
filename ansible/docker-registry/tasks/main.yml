@@ -4,7 +4,6 @@
   docker_login:
     username: rihab96
     password: docker2022
-    email: rihab.gasmi@esprit.tn
 - name: push image to dockerhub
   repository: rihab96/lcproject
   tag: latest
