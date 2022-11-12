@@ -29,7 +29,7 @@ pipeline {
              sh "ansible-playbook ansible/docker.yml -i ansible/inventory/host.yml -e 'ansible_python_interpreter=/usr/bin/python3' "
                           }
                    }
-                   
+          }         
                    
         stage('push to dockerhub')
         {
@@ -39,6 +39,6 @@ pipeline {
                           }
                    }         
         }        
-  }     
+       
 }
 }
