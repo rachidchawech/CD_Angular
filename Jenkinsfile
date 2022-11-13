@@ -13,9 +13,9 @@ agent any
         
        	stage("build"){
 		steps{
-		script{
+		
 			sh "ansible-playbook ansible/build.yml -i ansible/inventory/hosts.yml"
-}
+
 }
 }
     }
