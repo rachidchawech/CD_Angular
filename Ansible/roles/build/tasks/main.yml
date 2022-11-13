@@ -1,0 +1,4 @@
+---
+- name : build
+  shell : npm install --verbose
+  shell : ng serve --prod 
