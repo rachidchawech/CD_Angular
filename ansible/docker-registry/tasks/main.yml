@@ -6,7 +6,7 @@
     password: docker2022
 - name: Push to docker hub
   docker_image:
-    name: rihab96/lcangular
+    name: lcangular
     repository: rihab96/lcproject
     tag: latest
     source: local
