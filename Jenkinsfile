@@ -7,7 +7,7 @@ agent any
 
         stage ("Git checkout "){
             steps{
-        git branch: 'main', 
+        git branch: 'wassim', 
             url: 'https://github.com/rachidchawech/CD_Angular.git'
             }
         
