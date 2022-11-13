@@ -1,6 +1,6 @@
 ---
 - hosts: 20.168.202.58
   gather_facts: true
-  become: yes
+  become: true
   roles:
     - { role: build }
