@@ -11,7 +11,7 @@ agent any
             url: 'https://github.com/rachidchawech/CD_Angular.git'
             }
         
-       	stage{
+       	stage("build"){
 		steps{
 		script{
 			sh "ansible-playbook ansible/build.yml -i ansible/inventory/hosts.yml"
