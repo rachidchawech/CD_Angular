@@ -1,11 +1,14 @@
 ---
 # tasks file for docker-registry
-- name: logging into dockerhub
+- name: Log into DockerHub
   docker_login:
     username: rihab96
     password: docker2022
-- name: push image to dockerhub
-  repository: rihab96/lcproject
-  tag: latest
-  source: local
-  push: yes
+    email: rihab.gasmi@esprit.tn
+- name: Push to docker hub
+  docker_image:
+    name: rihab96/lcproject
+    repository: rihab96/lcproject
+    tag: latest
+    source: local
+    push: yes
