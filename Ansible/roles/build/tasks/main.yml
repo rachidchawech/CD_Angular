@@ -1,5 +1,6 @@
 ---
 - name : depend
   shell : npm install --verbose
+---
 - name : build  
   shell : ng serve --prod 
