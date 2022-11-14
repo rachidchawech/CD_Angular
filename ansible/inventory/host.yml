@@ -1,8 +1,8 @@
-localhost ansible_connection=local
+4.227.200.161 ansible_connection=local
 
 [Server]
-localhost
+4.227.200.161
 
 [Server:vars]
 ansible_python_interpreter= /usr/bin/python3
-ansi_user= rihab
+ansi_user= azureuser
