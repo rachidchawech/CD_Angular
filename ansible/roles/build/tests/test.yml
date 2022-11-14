@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 4.227.200.161
   remote_user: root
   roles:
     - build
