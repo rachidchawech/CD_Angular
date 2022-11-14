@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Pulling..';
                   git branch: 'master',
-                  url : 'https://github.com/Rihab1996Gasmi/projectLC.git';
+                  url : 'https://github.com/rachidchawech/CD_Angular.git';
             }
         }
         
