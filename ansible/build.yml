@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: 4.227.200.161
   gather_facts: true
   roles:
     - { role: build }
