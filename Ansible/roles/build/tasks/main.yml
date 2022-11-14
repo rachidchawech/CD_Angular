@@ -1,3 +1,0 @@
----
-- name : build app
-  shell: ng build --prod
